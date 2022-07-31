@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(5, 5, 5);
+
+  /* add background image */
+  background-image: url("https://c1.wallpaperflare.com/preview/295/958/495/tic-tac-toe-empty-fields-puzzles-play.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3em;
+  color: white;
+  text-shadow: 0 0 10px white;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: #eeeded 1px solid;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+th,
+table {
+  background-color: #eeeded;
+  border: 1px solid #000000;
+  color: #333;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 1.5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+th {
+  background-color: #cacaca;
+  width: 40px;
+  height: 41px;
+}
+
+table {
+  box-shadow: 0 0 10px white;
+  border-radius: 10px;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  font-size: 0.9em;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.container {
+  height: 10px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#winner {
+  font-size: 2em;
+}
